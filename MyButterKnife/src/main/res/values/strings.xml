@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyButterKnife</string>
+    <string name="mbk_ma_name">Jennis</string>
+    <string name="mbk_ma_default_text">Who am I ?</string>
+</resources>
