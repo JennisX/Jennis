@@ -1,1 +1,1 @@
-include ':app', ':MyButterKnife'
+include ':app', ':MyButterKnife', ':MyImageBanner'
