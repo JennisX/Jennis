@@ -6,4 +6,10 @@
     android:orientation="vertical"
     tools:context="com.demo.myimagebanner.MainActivity">
 
+    <com.demo.myimagebanner.MyImageBannerViewGroup
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </com.demo.myimagebanner.MyImageBannerViewGroup>
+
 </LinearLayout>
