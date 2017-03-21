@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.demo.myrecorder.MainActivity">
+
+    <!--<Button-->
+        <!--android:id="@+id/mr_ac_btn_1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="文件模式" />-->
+
+    <Button
+        android:id="@+id/mr_mb_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="开始录音" />
+
+</LinearLayout>

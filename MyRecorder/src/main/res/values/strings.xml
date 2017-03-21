@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyRecorder</string>
+    <string name="start_record">开始录音</string>
+    <string name="recording">录音中...</string>
+    <string name="start">播放</string>
+    <string name="stop"></string>
+</resources>
