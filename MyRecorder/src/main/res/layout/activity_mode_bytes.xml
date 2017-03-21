@@ -7,16 +7,16 @@
     android:padding="16dp"
     tools:context="com.demo.myrecorder.MainActivity">
 
-    <Button
-        android:id="@+id/mr_ac_btn_1"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="文件模式" />
+    <!--<Button-->
+        <!--android:id="@+id/mr_ac_btn_1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="文件模式" />-->
 
     <Button
-        android:id="@+id/mr_ac_btn_2"
+        android:id="@+id/mr_mb_btn_2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="字节流模式" />
+        android:text="开始录音" />
 
 </LinearLayout>
