@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="16dp"
     tools:context="com.demo.myrecorder.MainActivity">
 
-    <!--<Button-->
-        <!--android:id="@+id/mr_ac_btn_1"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="50dp"-->
-        <!--android:text="文件模式" />-->
+    <TextView
+        android:id="@+id/mr_mb_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:text="播放"
+        android:background="#888888aa"/>
 
-    <Button
+    <TextView
+        android:id="@+id/mr_mb_txt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="五档·路飞"
+        android:background="#888888aa"/>
+
+    <TextView
         android:id="@+id/mr_mb_btn_2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="开始录音" />
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="开始"
+        android:background="#888888aa"/>
 
-</LinearLayout>
+</FrameLayout>

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyButterKnife/MyButterKnife.iml" filepath="$PROJECT_DIR$/MyButterKnife/MyButterKnife.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyImageBanner/MyImageBanner.iml" filepath="$PROJECT_DIR$/MyImageBanner/MyImageBanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyRecorder/MyRecorder.iml" filepath="$PROJECT_DIR$/MyRecorder/MyRecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyRecorder/MyRecorder.iml" filepath="$PROJECT_DIR$/MyRecorder/MyRecorder.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

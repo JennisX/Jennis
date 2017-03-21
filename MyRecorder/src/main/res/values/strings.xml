@@ -3,5 +3,6 @@
     <string name="start_record">开始录音</string>
     <string name="recording">录音中...</string>
     <string name="start">播放</string>
-    <string name="stop"></string>
+    <string name="mb_start">开始</string>
+    <string name="mb_stop">结束</string>
 </resources>

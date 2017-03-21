@@ -33,6 +33,8 @@ public class MyFileModeActivity extends AppCompatActivity {
 
     public final static String prefix = ".m4a";
 
+    public final static int RECORD_MIN_TIME = 1;
+
     @BindView(R.id.mr_mf_btn_1)
     public TextView btn_1;
 
@@ -88,7 +90,7 @@ public class MyFileModeActivity extends AppCompatActivity {
     }
 
     @OnClick(R.id.mr_mf_btn_1)
-    public void play() {
+    public void doPlay() {
         //检查当前状态，防止重复播放
         if(myFile != null && !isPlaying) {
             //设置当前播放状态
@@ -97,14 +99,14 @@ public class MyFileModeActivity extends AppCompatActivity {
             executorService.submit(new Runnable() {
                 @Override
                 public void run() {
-                    doPlay(myFile);
+                    startPlay(myFile);
                 }
             });
         }
     }
 
     //实际播放逻辑
-    private void doPlay(File myFile) {
+    private void startPlay(File myFile) {
         try {
             //配置MediaPlayer
             mediaPlayer = new MediaPlayer();
@@ -271,9 +273,9 @@ public class MyFileModeActivity extends AppCompatActivity {
             //记录录音结束时间
             recordStopTime = System.currentTimeMillis();
 
-            //只接受超过3秒的录音，在UI显现出来
+            //只接受超过n秒的录音，在UI显现出来
             final int sec = (int) ((recordStopTime - recordStartTime) / 1000);
-            if (sec >= 3) {
+            if (sec >= RECORD_MIN_TIME) {
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
