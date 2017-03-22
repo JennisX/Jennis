@@ -21,6 +21,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.mr_ac_btn_3)
+    public void togetherMode() {
+        Intent intent = new Intent(MainActivity.this, MyTogetherHalfActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

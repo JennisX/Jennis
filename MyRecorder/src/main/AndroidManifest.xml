@@ -22,6 +22,8 @@
         <activity android:name=".MyFileModeActivity"/>
 
         <activity android:name=".MyBytesModeActivity"/>
+
+        <activity android:name=".MyTogetherHalfActivity"/>
     </application>
 
 </manifest>

@@ -19,4 +19,10 @@
         android:layout_height="50dp"
         android:text="字节流模式" />
 
+    <Button
+        android:id="@+id/mr_ac_btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="综合模式 1/2" />
+
 </LinearLayout>
