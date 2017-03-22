@@ -5,4 +5,7 @@
     <string name="start">播放</string>
     <string name="mb_start">开始</string>
     <string name="mb_stop">结束</string>
+    <string name="mtf_normal">按住 说话</string>
+    <string name="mtf_touch">松开 结束</string>
+    <string name="mtf_outside">滑动 取消</string>
 </resources>
